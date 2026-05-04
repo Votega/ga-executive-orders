@@ -8,13 +8,11 @@ A machine-readable archive of Georgia Governor's executive orders, maintained by
 Currently 2023–2026. Earlier years (2019–2022) used a different URL structure and are not included (yet).
 
 # Data schema
-{
-  "date":     "2024-09-24",
+{ "date":     "2024-09-24",
   "number":   "09.24.24.01",
   "title":    "Declaring a State of Emergency for Tropical Storm Helene",
   "category": "State of Emergency",
-  "url":      "https://gov.georgia.gov/document/2024-executive-order/09242401/download"
-}
+  "url":      "https://gov.georgia.gov/document/2024-executive-order/09242401/download" }
 
 # Categories
 Categories are keyword-matched from title: State of Emergency, Writ of Election, Suspension, Appointment, Authorization, Flag at Half-Staff, Other. Note: Some may be misclassified given the logic of keyword matching from Executive Order title. 

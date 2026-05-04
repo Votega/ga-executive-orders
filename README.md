@@ -31,7 +31,7 @@ Raw file URL pattern for direct fetch: https://raw.githubusercontent.com/Votega/
 - 2022 and earlier not yet available
 
 # Contributing
-Corrections (wrong category, missing order, etc) can be submitted via issue or PR. Point to the votega.org repo for the generation scripts.
+Corrections (wrong category, missing order, etc) can be submitted via issue or PR.
 
 # Source & license
 Original documents are public records from the State of Georgia. Data compilation is released under General Public License v3. 

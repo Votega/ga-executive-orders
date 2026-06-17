@@ -3,11 +3,53 @@
   "metadata": {
     "year": 2026,
     "governor": "Brian P. Kemp",
-    "updatedAt": "2026-05-28",
+    "updatedAt": "2026-06-13",
     "source": "https://gov.georgia.gov/executive-action/executive-orders/2026",
-    "count": 142
+    "count": 148
   },
   "orders": [
+    {
+      "date": "2026-06-12",
+      "number": "06.12.26.01",
+      "title": "Declaring a State of Emergency for Wildfire Recovery",
+      "category": "State of Emergency",
+      "url": "https://gov.georgia.gov/document/2026-executive-order/06122601/download"
+    },
+    {
+      "date": "2026-06-11",
+      "number": "06.11.26.03",
+      "title": "Authorizing the Department of Corrections to demolish and remove certain structures in Lowndes County",
+      "category": "Authorization",
+      "url": "https://gov.georgia.gov/document/2026-executive-order/06112603/download"
+    },
+    {
+      "date": "2026-06-11",
+      "number": "06.11.26.02",
+      "title": "Authorizing the demolition and removal of a structure from the Atlanta State Farmer’s Market",
+      "category": "Authorization",
+      "url": "https://gov.georgia.gov/document/2026-executive-order/06112602/download"
+    },
+    {
+      "date": "2026-06-11",
+      "number": "06.11.26.01",
+      "title": "Transferring custody of property in Richmond County from the Department of Behavioral Health and Developmental Disabilities to the Department of Veterans Service and authorizing the demolition and removal of certain structures",
+      "category": "Authorization",
+      "url": "https://gov.georgia.gov/document/2026-executive-order/06112601/download"
+    },
+    {
+      "date": "2026-06-10",
+      "number": "06.10.26.01",
+      "title": "Appointing the Honorable Carolyn Roddy as a member of the State Election Board",
+      "category": "Appointment",
+      "url": "https://gov.georgia.gov/document/2026-executive-order/06102601/download"
+    },
+    {
+      "date": "2026-06-08",
+      "number": "06.08.26.01",
+      "title": "Suspending Mr. Charles Brandon Fletcher from office as Coroner of Irwin County",
+      "category": "Suspension",
+      "url": "https://gov.georgia.gov/document/2026-executive-order/06082601/download"
+    },
     {
       "date": "2026-05-26",
       "number": "05.26.26.01",

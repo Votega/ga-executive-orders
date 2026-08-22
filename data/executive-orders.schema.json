@@ -1,0 +1,55 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://raw.githubusercontent.com/Votega/ga-executive-orders/main/data/executive-orders.schema.json",
+ "title": "Georgia Executive Orders (per-year file)",
+ "description": "Executive orders issued by the Governor of Georgia in one calendar year. One file per year (data/<year>.json).",
+ "type": "object",
+ "required": [
+  "orders"
+ ],
+ "properties": {
+  "metadata": {
+   "type": "object"
+  },
+  "orders": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "date",
+     "number",
+     "title"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "description": "Issue date (YYYY-MM-DD)."
+     },
+     "number": {
+      "type": "string",
+      "description": "Executive order number (e.g. '08.18.26.01')."
+     },
+     "title": {
+      "type": "string"
+     },
+     "category": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "e.g. Appointment, Emergency, Administrative."
+     },
+     "url": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Link to the official order PDF."
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ },
+ "additionalProperties": true
+}

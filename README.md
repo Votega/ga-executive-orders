@@ -6,12 +6,12 @@ Machine-readable archive of executive orders issued by the Governor of Georgia, 
 
 ## Files
 
-| File | Contents |
-|---|---|
-| `data/2026.json` | 2026 executive orders — updated daily |
-| `data/2025.json` | 2025 executive orders — complete |
-| `data/2024.json` | 2024 executive orders — complete |
-| `data/2023.json` | 2023 executive orders — complete |
+| File | Format | Contents |
+|---|---|---|
+| `data/2026.json` … `data/2023.json` | JSON | Orders for one year each (2026 updated daily; earlier years complete) |
+| `data/executive-orders.csv` | CSV | **Every order, all years, in one file** — one row each, for spreadsheets |
+| `data/executive-orders.schema.json` | JSON Schema | Validating / typing a per-year file |
+| [`SUMMARY.md`](SUMMARY.md) | Markdown | **Reading** — counts by year & category, plus the 10 most recent orders |
 
 **Coverage:** 2023–present. Years prior to 2023 used a different URL structure on gov.georgia.gov and are not yet included.
 

@@ -1,9 +1,9 @@
 # Georgia Executive Orders
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-08-23T12:37:17.384103+00:00 · 2213 orders across 5 years._
+_Last updated 2026-08-23T14:16:34.564901+00:00 · 2213 orders across 5 years._
 
-> Full data: per-year JSON in [`data/`](data/), or everything in one file — [`data/executive-orders.csv`](data/executive-orders.csv).
+> Full data: per-year JSON in [`data/`](data/), or everything in one file — [`data/executive-orders.csv`](data/executive-orders.csv). Extracted order text: per-year JSONL in [`text/`](text/) (one line per order, joinable to the JSON on `number`).
 
 ## By year
 

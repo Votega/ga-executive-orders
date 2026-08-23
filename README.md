@@ -54,6 +54,12 @@ Each file contains a metadata wrapper and an `orders` array:
 | `title` | string | Full title of the order |
 | `category` | string | Classification — see categories below |
 | `url` | string | Direct link to the official PDF on gov.georgia.gov |
+| `sha256` | string | SHA-256 hash of the downloaded PDF, for integrity verification |
+| `bytes` | integer | Size of the downloaded PDF in bytes |
+| `fetchedAt` | string | UTC timestamp (ISO-8601) when the PDF was downloaded and hashed |
+| `archiveUrl` | string \| null | Wayback Machine snapshot of the PDF; `null` if archiving hasn't succeeded |
+
+The sha256, bytes, fetchedAt, and archiveUrl fields are added by an enrichment pass and are present once an order has been processed; archiveUrl may be null.
 
 ### Categories
 

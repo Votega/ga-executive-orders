@@ -8,17 +8,21 @@ Machine-readable archive of executive orders issued by the Governor of Georgia, 
 
 | File | Format | Contents |
 |---|---|---|
-| `data/2026.json` … `data/2023.json` | JSON | Orders for one year each (2026 updated daily; earlier years complete) |
+| `data/<year>.json` | JSON | Orders for one year each — one file per year (e.g. `data/2026.json`; current year updated daily, earlier years complete) |
+| `text/<year>.jsonl` | JSONL | Extracted full text of each order's PDF — one line per order, `{"number": "...", "text": "..."}`, joined to the JSON on `number` |
 | `data/executive-orders.csv` | CSV | **Every order, all years, in one file** — one row each, for spreadsheets |
 | `data/executive-orders.schema.json` | JSON Schema | Validating / typing a per-year file |
 | [`SUMMARY.md`](SUMMARY.md) | Markdown | **Reading** — counts by year & category, plus the 10 most recent orders |
 
-**Coverage:** 2022–present. 
+Full text is extracted from each PDF (via `pdftotext`, falling back to OCR for scanned documents); orders whose PDF yields no extractable text are omitted from the `text/` bundles.
+
+**Coverage:** 2022–present. Earlier years (2020–2021) use a different URL structure on gov.georgia.gov and are being backfilled; orders before 2020 are hosted only on archived sites and are not yet included.
 
 Raw files can be accessed directly using:
 
 ```
 https://raw.githubusercontent.com/Votega/ga-executive-orders/main/data/[year].json
+https://raw.githubusercontent.com/Votega/ga-executive-orders/main/text/[year].jsonl
 ```
 
 ---

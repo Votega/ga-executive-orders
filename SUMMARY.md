@@ -1,7 +1,7 @@
 # Georgia Executive Orders
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-08-24T18:01:39.786995+00:00 · 2858 orders across 6 years._
+_Last updated 2026-08-24T21:10:43.610320+00:00 · 3411 orders across 7 years._
 
 > Full data: per-year JSON in [`data/`](data/), or everything in one file — [`data/executive-orders.csv`](data/executive-orders.csv). Extracted order text: per-year JSONL in [`text/`](text/) (one line per order, joinable to the JSON on `number`).
 
@@ -15,18 +15,19 @@ _Last updated 2026-08-24T18:01:39.786995+00:00 · 2858 orders across 6 years._
 | 2023 | 525 |
 | 2022 | 458 |
 | 2021 | 645 |
+| 2020 | 553 |
 
 ## By category
 
 | Category | Orders |
 |----------|--------|
-| Appointment | 2384 |
-| Authorization | 125 |
-| Flag at Half-Staff | 108 |
-| State of Emergency | 102 |
-| Other | 76 |
-| Suspension | 36 |
-| Writ of Election | 27 |
+| Appointment | 2810 |
+| Authorization | 152 |
+| Other | 132 |
+| State of Emergency | 132 |
+| Flag at Half-Staff | 117 |
+| Suspension | 38 |
+| Writ of Election | 30 |
 
 ## 10 most recent
 

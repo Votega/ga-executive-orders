@@ -16,7 +16,7 @@ Machine-readable archive of executive orders issued by the Governor of Georgia, 
 
 Full text is extracted from each PDF (via `pdftotext`, falling back to OCR for scanned documents); orders whose PDF yields no extractable text are omitted from the `text/` bundles.
 
-**Coverage:** 2022–present. Earlier years (2020–2021) use a different URL structure on gov.georgia.gov and are being backfilled; orders before 2020 are hosted only on archived sites and are not yet included.
+**Coverage:** 2021–present. Orders before 2020 are hosted only on archived sites and are not yet included.
 
 Raw files can be accessed directly using:
 

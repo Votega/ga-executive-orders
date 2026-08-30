@@ -1,7 +1,7 @@
 # Georgia Executive Orders
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-08-29T13:49:14.359849+00:00 · 3412 orders across 7 years._
+_Last updated 2026-08-30T13:52:34.898955+00:00 · 3441 orders across 7 years._
 
 > Full data: per-year JSON in [`data/`](data/), or everything in one file — [`data/executive-orders.csv`](data/executive-orders.csv). Extracted order text: per-year JSONL in [`text/`](text/) (one line per order, joinable to the JSON on `number`).
 
@@ -9,7 +9,7 @@ _Last updated 2026-08-29T13:49:14.359849+00:00 · 3412 orders across 7 years._
 
 | Year | Orders |
 |------|--------|
-| 2026 | 222 |
+| 2026 | 251 |
 | 2025 | 438 |
 | 2024 | 571 |
 | 2023 | 525 |
@@ -21,7 +21,7 @@ _Last updated 2026-08-29T13:49:14.359849+00:00 · 3412 orders across 7 years._
 
 | Category | Orders |
 |----------|--------|
-| Appointment | 2810 |
+| Appointment | 2839 |
 | Authorization | 152 |
 | Other | 132 |
 | State of Emergency | 132 |
@@ -33,14 +33,14 @@ _Last updated 2026-08-29T13:49:14.359849+00:00 · 3412 orders across 7 years._
 
 | Date | Number | Category | Title |
 |------|--------|----------|-------|
+| 2026-08-25 | [08.25.26.04](https://gov.georgia.gov/document/2026-executive-order/08252604/download) | Appointment | Appointing the Honorable Andri Akins Pilgrim as a member of the Georgia Literacy Task Force |
+| 2026-08-25 | [08.25.26.03](https://gov.georgia.gov/document/2026-executive-order/08252603/download) | Appointment | Appointing the Honorable Gary Eldon Bingham as a member of the Georgia Literacy Task Force |
+| 2026-08-25 | [08.25.26.02](https://gov.georgia.gov/document/2026-executive-order/08252602/download) | Appointment | Appointing the Honorable Kelly Jenae McKay as a member of the Georgia Literacy Task Force |
 | 2026-08-25 | [08.25.26.01](https://gov.georgia.gov/document/2026-executive-order/08252601/download) | Flag at Half-Staff | Lowering flags to half-staff in honor and memory of Dolly Parton |
-| 2026-08-18 | [08.18.26.01](https://gov.georgia.gov/document/2026-executive-order/08182601/download) | Appointment | Appointing the Honorable Kellye C. Moore as Superior Court Judge of the Houston Judicial Circuit |
-| 2026-08-17 | [08.17.26.05](https://gov.georgia.gov/document/2026-executive-order/08172605/download) | Appointment | Appointing the Honorable Charles Bradley Dixon as Superior Court Judge of the Atlantic Judicial Circuit |
-| 2026-08-17 | [08.17.26.04](https://gov.georgia.gov/document/2026-executive-order/08172604/download) | Appointment | Appointing the Honorable Billy Joe Nelson, Jr. as Superior Court Judge of the Atlantic Judicial Circuit |
-| 2026-08-17 | [08.17.26.03](https://gov.georgia.gov/document/2026-executive-order/08172603/download) | Appointment | Appointing the Honorable Kathleen V.P. Davis as District Attorney of the Lookout Mountain Judicial Circuit |
-| 2026-08-17 | [08.17.26.02](https://gov.georgia.gov/document/2026-executive-order/08172602/download) | Appointment | Appointing Mr. Dennis T. Cathey as Special Counsel to represent the Honorable Sonja N. Brown and the Honorable Robert E. Flournoy, III |
-| 2026-08-17 | [08.17.26.01](https://gov.georgia.gov/document/2026-executive-order/08172601/download) | Suspension | Suspending members of the Dublin City Board of Education and creating the Dublin City Board of Education Nominating Committee |
-| 2026-08-12 | [08.12.26.03](https://gov.georgia.gov/document/2026-executive-order/08122603/download) | Appointment | Appointing the Honorable Randy McGinley as Superior Court Judge of the Alcovy Judicial Circuit |
-| 2026-08-12 | [08.12.26.02](https://gov.georgia.gov/document/2026-executive-order/08122602/download) | Appointment | Appointing the Honorable Catherine A. Sumner as District Attorney of the Ogeechee Judicial Circuit |
-| 2026-08-12 | [08.12.26.01](https://gov.georgia.gov/document/2026-executive-order/08122601/download) | Appointment | Appointing the Honorable Justin R. Arnold as Judge of the State Court of Sumter County |
+| 2026-08-21 | [08.21.26.26](https://gov.georgia.gov/document/2026-executive-order/08212626/download) | Appointment | Appointing the Honorable Samuel Lee Kitchens as a member of the Board of the Georgia County Leadership Academy |
+| 2026-08-21 | [08.21.26.25](https://gov.georgia.gov/document/2026-executive-order/08212625/download) | Appointment | Reappointing the Honorable Michelle Morgan as a member of the Board of the Georgia County Leadership Academy |
+| 2026-08-21 | [08.21.26.24](https://gov.georgia.gov/document/2026-executive-order/08212624/download) | Appointment | Appointing the Honorable James K. Proctor as a member of the Board of Commissioners of the Sheriffs’ Retirement Fund of Georgia |
+| 2026-08-21 | [08.21.26.23](https://gov.georgia.gov/document/2026-executive-order/08212623/download) | Appointment | Reappointing the Honorable Corey Lebron Ferguson as the Sixth Congressional District Representative on the State Board of the Technical College System of Georgia |
+| 2026-08-21 | [08.21.26.22](https://gov.georgia.gov/document/2026-executive-order/08212622/download) | Appointment | Reappointing the Honorable John Herbert Cranford, Jr. as a member of the Hearing Panel of the Prosecuting Attorneys Qualifications Commission |
+| 2026-08-21 | [08.21.26.21](https://gov.georgia.gov/document/2026-executive-order/08212621/download) | Appointment | Reappointing the Honorable John Manning Ott as a member of the Investigative Panel of the Prosecuting Attorneys Qualifications Commission |
 

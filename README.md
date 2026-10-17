@@ -122,4 +122,4 @@ Direct edits to data files are not accepted via pull request — the files are o
 
 ## License
 
-[GPL-3.0](LICENSE)
+[CC-BY-SA 4.0](https://github.com/Votega/ga-executive-orders?tab=CC-BY-SA-4.0-1-ov-file)

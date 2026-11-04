@@ -1,7 +1,7 @@
 # Georgia Executive Orders
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-11-03T16:11:21.517432+00:00 · 3551 orders across 7 years._
+_Last updated 2026-11-04T10:21:37.636400+00:00 · 3606 orders across 7 years._
 
 > Full data: per-year JSON in [`data/`](data/), or everything in one file — [`data/executive-orders.csv`](data/executive-orders.csv). Extracted order text: per-year JSONL in [`text/`](text/) (one line per order, joinable to the JSON on `number`).
 
@@ -9,7 +9,7 @@ _Last updated 2026-11-03T16:11:21.517432+00:00 · 3551 orders across 7 years._
 
 | Year | Orders |
 |------|--------|
-| 2026 | 361 |
+| 2026 | 416 |
 | 2025 | 438 |
 | 2024 | 571 |
 | 2023 | 525 |
@@ -21,7 +21,7 @@ _Last updated 2026-11-03T16:11:21.517432+00:00 · 3551 orders across 7 years._
 
 | Category | Orders |
 |----------|--------|
-| Appointment | 2937 |
+| Appointment | 2992 |
 | Authorization | 155 |
 | State of Emergency | 136 |
 | Other | 134 |
@@ -33,14 +33,14 @@ _Last updated 2026-11-03T16:11:21.517432+00:00 · 3551 orders across 7 years._
 
 | Date | Number | Category | Title |
 |------|--------|----------|-------|
-| 2026-10-24 | [10.24.26.01](https://gov.georgia.gov/document/2026-executive-order/10242601/download) | State of Emergency | Extending the State of Emergency for Petroleum Supply Disruptions |
-| 2026-10-23 | [10.23.26.01](https://gov.georgia.gov/document/2026-executive-order/10232601/download) | Appointment | Appointing the Honorable Tommy Davis to fill the temporary vacancy in the Office of Chairman of the Newton County Board of Commissioners |
-| 2026-10-20 | [10.20.26.25](https://gov.georgia.gov/document/2026-executive-order/10202625/download) | Appointment | Appointing the Honorable Michael David Westbrook as a member of the State Board of Registration for Foresters |
-| 2026-10-20 | [10.20.26.24](https://gov.georgia.gov/document/2026-executive-order/10202624/download) | Appointment | Appointing the Honorable William “Jack” Tribble Jr. as a member of the State Board of Registration for Foresters |
-| 2026-10-20 | [10.20.26.23](https://gov.georgia.gov/document/2026-executive-order/10202623/download) | Appointment | Appointing the Honorable James “Jase” L. Brooks V as a member of the State Board of Registration for Foresters |
-| 2026-10-20 | [10.20.26.22](https://gov.georgia.gov/document/2026-executive-order/10202622/download) | Appointment | Reappointing the Honorable Jesse Walter Johnson as a member of the State Board of Registration for Foresters |
-| 2026-10-20 | [10.20.26.21](https://gov.georgia.gov/document/2026-executive-order/10202621/download) | Appointment | Reappointing the Honorable Grant Harvey as a member of the State Board of Registration for Foresters |
-| 2026-10-20 | [10.20.26.20](https://gov.georgia.gov/document/2026-executive-order/10202620/download) | Appointment | Appointing the Honorable James Malcolm Cole, III as a member of the Board of Economic Development |
-| 2026-10-20 | [10.20.26.19](https://gov.georgia.gov/document/2026-executive-order/10202619/download) | Appointment | Reappointing the Honorable Jose R. Perez as a member of the Board of Economic Development |
-| 2026-10-20 | [10.20.26.18](https://gov.georgia.gov/document/2026-executive-order/10202618/download) | Appointment | Reappointing the Honorable John “Jay” Neely III as a member of the Board of Economic Development |
+| 2026-10-29 | [10.29.26.09](https://gov.georgia.gov/document/2026-executive-order/10292609/download) | Appointment | Reappointing the Honorable Donna Hortman Sheldon as a member of the Georgia Public Telecommunications Commission |
+| 2026-10-29 | [10.29.26.08](https://gov.georgia.gov/document/2026-executive-order/10292608/download) | Appointment | Reappointing the Honorable Amanda B. Shailendra as a member of the Georgia Public Telecommunications Commission |
+| 2026-10-29 | [10.29.26.07](https://gov.georgia.gov/document/2026-executive-order/10292607/download) | Appointment | Reappointing the Honorable Mark Robert Parkman as a member of the Georgia Public Telecommunications Commission |
+| 2026-10-29 | [10.29.26.06](https://gov.georgia.gov/document/2026-executive-order/10292606/download) | Appointment | Reappointing the Honorable Stephen Samuel Lawson as a member of the Georgia Public Telecommunications Commission |
+| 2026-10-29 | [10.29.26.05](https://gov.georgia.gov/document/2026-executive-order/10292605/download) | Appointment | Reappointing the Honorable Jeffrey C. Dantzler as a member of the Georgia Public Telecommunications Commission |
+| 2026-10-29 | [10.29.26.04](https://gov.georgia.gov/document/2026-executive-order/10292604/download) | Appointment | Reappointing the Honorable Christopher Edward Brown as a member of the Georgia Public Telecommunications Commission |
+| 2026-10-29 | [10.29.26.03](https://gov.georgia.gov/document/2026-executive-order/10292603/download) | Appointment | Appointing the Honorable Alicia Roberts Register as Chair of the Georgia Trauma Care Network Commission |
+| 2026-10-29 | [10.29.26.02](https://gov.georgia.gov/document/2026-executive-order/10292602/download) | Appointment | Appointing the Honorable Elizabeth R. Benjamin as a member of the Georgia Trauma Care Network Commission |
+| 2026-10-29 | [10.29.26.01](https://gov.georgia.gov/document/2026-executive-order/10292601/download) | Appointment | Appointing the Honorable Leslie Jaye Finkley as a member of the State Board of Long-Term Care Facility Administrators |
+| 2026-10-28 | [10.28.26.28](https://gov.georgia.gov/document/2026-executive-order/10282628/download) | Appointment | Appointing the Honorable Kevin Shawn Sorrow as a member of the Middle Ocmulgee Regional Water Planning Council |
 

@@ -1,7 +1,7 @@
 # Georgia Executive Orders
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-11-19T02:51:44.777466+00:00 · 3624 orders across 7 years._
+_Last updated 2026-11-19T17:31:13.264844+00:00 · 3645 orders across 7 years._
 
 > Full data: per-year JSON in [`data/`](data/), or everything in one file — [`data/executive-orders.csv`](data/executive-orders.csv). Extracted order text: per-year JSONL in [`text/`](text/) (one line per order, joinable to the JSON on `number`).
 
@@ -9,7 +9,7 @@ _Last updated 2026-11-19T02:51:44.777466+00:00 · 3624 orders across 7 years._
 
 | Year | Orders |
 |------|--------|
-| 2026 | 434 |
+| 2026 | 455 |
 | 2025 | 438 |
 | 2024 | 571 |
 | 2023 | 525 |
@@ -21,7 +21,7 @@ _Last updated 2026-11-19T02:51:44.777466+00:00 · 3624 orders across 7 years._
 
 | Category | Orders |
 |----------|--------|
-| Appointment | 3008 |
+| Appointment | 3029 |
 | Authorization | 155 |
 | State of Emergency | 138 |
 | Other | 134 |
@@ -33,14 +33,14 @@ _Last updated 2026-11-19T02:51:44.777466+00:00 · 3624 orders across 7 years._
 
 | Date | Number | Category | Title |
 |------|--------|----------|-------|
-| 2026-11-12 | [11.12.26.03](https://gov.georgia.gov/document/2026-executive-order/11122603/download) | State of Emergency | Extending the State of Emergency for Severe Flooding |
-| 2026-11-12 | [11.12.26.02](https://gov.georgia.gov/document/2026-executive-order/11122602/download) | Appointment | Appointing the Honorable Robert L. Waller, III as Senior Judge of the Juvenile Courts of Georgia |
-| 2026-11-12 | [11.12.26.01](https://gov.georgia.gov/document/2026-executive-order/11122601/download) | Appointment | Appointing the Honorable Andrew C. Dodgen as Senior Judge of the Juvenile Courts of Georgia |
-| 2026-11-06 | [11.06.26.07](https://gov.georgia.gov/document/2026-executive-order/11062607/download) | Appointment | Appointing the Honorable Alex Albert Singleton as a member of the Coosa-North Georgia Regional Water Planning Council |
-| 2026-11-06 | [11.06.26.06](https://gov.georgia.gov/document/2026-executive-order/11062606/download) | Appointment | Appointing the Honorable Robert Buddy Moore as a member of the Coosa-North Georgia Regional Water Planning Council |
-| 2026-11-06 | [11.06.26.05](https://gov.georgia.gov/document/2026-executive-order/11062605/download) | Appointment | Appointing the Honorable John Amos Loughridge as a member of the Coosa-North Georgia Regional Water Planning Council |
-| 2026-11-06 | [11.06.26.04](https://gov.georgia.gov/document/2026-executive-order/11062604/download) | Appointment | Appointing the Honorable Steven Todd Carr as a member of the Coosa-North Georgia Regional Water Planning Council |
-| 2026-11-06 | [11.06.26.03](https://gov.georgia.gov/document/2026-executive-order/11062603/download) | Appointment | Reappointing the Honorable Allison Smith Watters as a member of the Coosa-North Georgia Regional Water Planning Council |
-| 2026-11-06 | [11.06.26.02](https://gov.georgia.gov/document/2026-executive-order/11062602/download) | Appointment | Reappointing the Honorable Rebecca E. Bolden as a member of the Coosa-North Georgia Regional Water Planning Council |
-| 2026-11-06 | [11.06.26.01](https://gov.georgia.gov/document/2026-executive-order/11062601/download) | Appointment | Reappointing the Honorable Brooke Curtis Anderson as a member of the Coosa-North Georgia Regional Water Planning Council |
+| 2026-11-17 | [11.17.26.22](https://gov.georgia.gov/document/2026-executive-order/11172622/download) | Appointment | Appointing the Honorable Tyler Marion Wood as a member of the Georgia Real Estate Commission |
+| 2026-11-17 | [11.17.26.21](https://gov.georgia.gov/document/2026-executive-order/11172621/download) | Appointment | Reappointing the Honorable Jerry Warshaw as a member of the Georgia Real Estate Commission |
+| 2026-11-17 | [11.17.26.20](https://gov.georgia.gov/document/2026-executive-order/11172620/download) | Appointment | Reappointing the Honorable Stephen Douglas Graves as a member of the Georgia Real Estate Commission |
+| 2026-11-17 | [11.17.26.19](https://gov.georgia.gov/document/2026-executive-order/11172619/download) | Appointment | Appointing the Honorable Meredith R. Evans as a member of the State Board for the Certification of Librarians |
+| 2026-11-17 | [11.17.26.18](https://gov.georgia.gov/document/2026-executive-order/11172618/download) | Appointment | Appointing the Honorable Lenese Michelle Colson as a member of the State Board for the Certification of Librarians |
+| 2026-11-17 | [11.17.26.17](https://gov.georgia.gov/document/2026-executive-order/11172617/download) | Appointment | Appointing the Honorable Susan K. Treadaway as a member of the State Commission on Family Violence |
+| 2026-11-17 | [11.17.26.16](https://gov.georgia.gov/document/2026-executive-order/11172616/download) | Appointment | Appointing the Honorable Amy Elaine Smith as a member of the State Commission on Family Violence |
+| 2026-11-17 | [11.17.26.15](https://gov.georgia.gov/document/2026-executive-order/11172615/download) | Appointment | Appointing the Honorable Shanta Renea Porter as a member of the State Commission on Family Violence |
+| 2026-11-17 | [11.17.26.14](https://gov.georgia.gov/document/2026-executive-order/11172614/download) | Appointment | Appointing the Honorable Alexandra Manning as a member of the State Commission on Family Violence |
+| 2026-11-17 | [11.17.26.13](https://gov.georgia.gov/document/2026-executive-order/11172613/download) | Appointment | Appointing the Honorable Jill Hollander as a member of the State Commission on Family Violence |
 

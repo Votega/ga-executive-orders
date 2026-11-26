@@ -2,7 +2,7 @@
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://raw.githubusercontent.com/Votega/ga-executive-orders/main/data/executive-orders.schema.json",
  "title": "Georgia Executive Orders (per-year file)",
- "description": "Executive orders issued by the Governor of Georgia in one calendar year. One file per year (data/<year>.json).",
+ "description": "Executive orders issued by the Governor of Georgia in one calendar year. One file per year (data/<year>.json). metadata.governor names every Governor who issued an order that year, e.g. two in an inauguration year.",
  "type": "object",
  "required": [
   "orders"
@@ -64,6 +64,31 @@
        "null"
       ],
       "description": "Wayback Machine snapshot of the PDF, if archived."
+     },
+     "issuedBy": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "description": "The Governor who issued the order. Worked out from the order's date and the Governor's term (basis \"date\"); an order signed on an inauguration day is checked by hand (basis \"verified\"). null until a new Governor's term is confirmed.",
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "execId": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "description": "VoteGA executive id; null before 2019."
+       },
+       "basis": {
+        "enum": [
+         "date",
+         "verified"
+        ]
+       }
+      }
      }
     },
     "additionalProperties": true

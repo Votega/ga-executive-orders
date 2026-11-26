@@ -1,7 +1,7 @@
 # Georgia Executive Orders
 
 _Auto-generated from [votega.org](https://votega.org) — do not edit by hand._  
-_Last updated 2026-11-25T18:39:53.303475+00:00 · 3650 orders across 7 years._
+_Last updated 2026-11-26T01:23:12.090911+00:00 · 3650 orders across 7 years._
 
 > Full data: per-year JSON in [`data/`](data/), or everything in one file — [`data/executive-orders.csv`](data/executive-orders.csv). Extracted order text: per-year JSONL in [`text/`](text/) (one line per order, joinable to the JSON on `number`).
 
@@ -16,6 +16,12 @@ _Last updated 2026-11-25T18:39:53.303475+00:00 · 3650 orders across 7 years._
 | 2022 | 458 |
 | 2021 | 645 |
 | 2020 | 553 |
+
+## By Governor
+
+| Issued by | Orders |
+|-----------|--------|
+| Brian P. Kemp | 3650 |
 
 ## By category
 

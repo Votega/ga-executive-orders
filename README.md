@@ -10,9 +10,9 @@ Machine-readable archive of executive orders issued by the Governor of Georgia, 
 |---|---|---|
 | `data/<year>.json` | JSON | Orders for one year each — one file per year (e.g. `data/2026.json`; current year updated daily, earlier years complete) |
 | `text/<year>.jsonl` | JSONL | Extracted full text of each order's PDF — one line per order, `{"number": "...", "text": "..."}`, joined to the JSON on `number` |
-| `data/executive-orders.csv` | CSV | **Every order, all years, in one file** — one row each, for spreadsheets |
+| `data/executive-orders.csv` | CSV | **Every order, all years, in one file** — one row each, for spreadsheets; the last column, `issuedBy`, is the issuing Governor's name |
 | `data/executive-orders.schema.json` | JSON Schema | Validating / typing a per-year file |
-| [`SUMMARY.md`](SUMMARY.md) | Markdown | **Reading** — counts by year & category, plus the 10 most recent orders |
+| [`SUMMARY.md`](SUMMARY.md) | Markdown | **Reading** — counts by year, Governor and category, plus the 10 most recent orders |
 
 Full text is extracted from each PDF (via `pdftotext`, falling back to OCR for scanned documents); orders whose PDF yields no extractable text are omitted from the `text/` bundles.
 
@@ -34,8 +34,11 @@ Each file contains a metadata wrapper and an `orders` array:
 ```json
 {
   "metadata": {
+    "year": 2024,
+    "governor": "Brian P. Kemp",
     "updatedAt": "2025-01-15",
-    "source": "gov.georgia.gov"
+    "source": "https://gov.georgia.gov/executive-action/executive-orders/2024",
+    "count": 571
   },
   "orders": [
     {
@@ -43,7 +46,8 @@ Each file contains a metadata wrapper and an `orders` array:
       "number":   "09.24.24.01",
       "title":    "Declaring a State of Emergency for Tropical Storm Helene",
       "category": "State of Emergency",
-      "url":      "https://gov.georgia.gov/document/2024-executive-order/09242401/download"
+      "url":      "https://gov.georgia.gov/document/2024-executive-order/09242401/download",
+      "issuedBy": { "name": "Brian P. Kemp", "execId": "exec:ga-kemp-brian", "basis": "date" }
     }
   ]
 }
@@ -62,8 +66,19 @@ Each file contains a metadata wrapper and an `orders` array:
 | `bytes` | integer | Size of the downloaded PDF in bytes |
 | `fetchedAt` | string | UTC timestamp (ISO-8601) when the PDF was downloaded and hashed |
 | `archiveUrl` | string \| null | Wayback Machine snapshot of the PDF; `null` if archiving hasn't succeeded |
+| `issuedBy` | object \| null | The Governor who issued the order: `name`, `execId` (VoteGA's id; `null` before 2019) and `basis` (`date` or `verified`). See below |
 
 The sha256, bytes, fetchedAt, and archiveUrl fields are added by an enrichment pass and are present once an order has been processed; archiveUrl may be null.
+
+`metadata.governor` names every Governor who issued an order in that year, in order of taking office, e.g. `"Brian P. Kemp / Keisha Lance Bottoms"` for 2027.
+
+### Who issued an order
+
+The order PDFs don't print the Governor's name: the signature is handwritten above the word "GOVERNOR", and only a few emergency orders name the Governor in their text. So `issuedBy` is worked out from the order's `date` and each Governor's term of office (`"basis": "date"`).
+
+- **Inauguration days are checked by hand.** On the day one Governor's term ends and the next begins, either could have signed, and an order number carries no time. Such an order is published only once someone has checked the PDF (`"basis": "verified"`).
+- **`null` means not yet confirmed.** An order dated after a new Governor takes office has `issuedBy: null` until that Governor's swearing-in has been recorded; it is filled in on a later run.
+- Where an order's text does name the Governor ("I, Brian P. Kemp, Governor of the State of Georgia"), it is checked against the date-based answer.
 
 ## Verifying integrity
 
